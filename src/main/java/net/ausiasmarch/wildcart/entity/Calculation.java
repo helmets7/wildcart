@@ -6,10 +6,11 @@ public class Calculation {
     private int op2;
     private int result;
 
-    public Calculation(int op1, int op2) {
+    /*public Calculation(int op1, int op2) {
         this.op1 = op1;
         this.op2 = op2;
     }
+    */
 
     public int getOp1(){
         return this.op1;
@@ -27,7 +28,9 @@ public class Calculation {
     public void setOp2(int op2){
         this.op2 = op2;
     }
-    public void setResult(int string){
-        this.result = string;
+    
+    public void setResult(int result){
+        this.result = result;
     }
+
 }
